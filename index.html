@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="FORMA — ručno rađena keramika za male svakodnevne rituale. Unikatne šolje, činije, tanjiri i vaze.">
+  <meta name="theme-color" content="#f7f3ec">
+  <title>FORMA — Ručno rađena keramika</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="#pocetna" aria-label="FORMA početna strana">FORMA<span>.</span></a>
+    <button class="menu-toggle" aria-label="Otvori meni" aria-expanded="false" aria-controls="main-nav">
+      <span></span><span></span>
+    </button>
+    <nav class="main-nav" id="main-nav" aria-label="Glavna navigacija">
+      <a href="#kolekcija">Kolekcija</a>
+      <a href="#proces">Proces izrade</a>
+      <a href="#prica">Naša priča</a>
+    </nav>
+    <a class="header-link" href="#kontakt">Kontakt <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="pocetna">
+      <img class="hero-image" src="images/hero.png" alt="Ručno rađene keramičke posude u toplom mediteranskom svetlu" fetchpriority="high">
+      <div class="hero-content">
+        <p class="eyebrow">Mali predmeti. Veliki rituali.</p>
+        <h1>Oblikovano<br>rukama, <em>stvoreno</em><br>za svaki dan.</h1>
+        <p class="hero-description">Unikatna keramika koja unosi toplinu, teksturu i karakter u svakodnevne trenutke.</p>
+        <a class="button button-dark" href="#kolekcija">Istraži kolekciju <span aria-hidden="true">↘</span></a>
+      </div>
+      <div class="hero-note"><span class="note-line"></span> Ručno izrađeno, komad po komad</div>
+    </section>
+
+    <section class="intro section-wrap">
+      <p class="eyebrow">Predmeti sa karakterom</p>
+      <p class="intro-text">Nesavršene linije. Prirodne teksture. <span>Keramika napravljena da se koristi, dodiruje i čuva.</span></p>
+    </section>
+
+    <section class="collection section-wrap" id="kolekcija">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">FORMA studio / kolekcija 01</p>
+          <h2>Predmeti za svaki dan</h2>
+        </div>
+        <p>Svaki komad je ručno oblikovan, pa su male razlike deo njegove lepote.</p>
+      </div>
+      <div class="product-grid">
+        <article class="product-card">
+          <button class="product-image image-open" data-image="images/solja.png" data-title="Šolja — Zemlja" aria-label="Uvećaj fotografiju šolje">
+            <img src="images/solja.png" alt="Unikatna krem keramička šolja sa tačkastom teksturom" loading="lazy">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <div class="product-info"><div><h3>Šolja — Zemlja</h3><p>Ručno oblikovana keramika</p></div><span class="product-price">2.400 RSD</span></div>
+        </article>
+        <article class="product-card">
+          <button class="product-image image-open" data-image="images/cinija.png" data-title="Činija — Maslina" aria-label="Uvećaj fotografiju činije">
+            <img src="images/cinija.png" alt="Maslinasto zelena keramička činija sa ručno glaziranom površinom" loading="lazy">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <div class="product-info"><div><h3>Činija — Maslina</h3><p>Glazura u prirodnim tonovima</p></div><span class="product-price">3.100 RSD</span></div>
+        </article>
+        <article class="product-card">
+          <button class="product-image image-open" data-image="images/tanjir.png" data-title="Tanjir — Pesak" aria-label="Uvećaj fotografiju tanjira">
+            <img src="images/tanjir.png" alt="Ručно rađen keramički tanjir u boji peska sa sitnim tačkicama" loading="lazy">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <div class="product-info"><div><h3>Tanjir — Pesak</h3><p>Organski oblik i topla glazura</p></div><span class="product-price">2.800 RSD</span></div>
+        </article>
+        <article class="product-card">
+          <button class="product-image image-open" data-image="images/vaza.png" data-title="Vaza — Terra" aria-label="Uvećaj fotografiju vaze">
+            <img src="images/vaza.png" alt="Skulpturalna terakota vaza sa maslinovim grančicama" loading="lazy">
+            <span class="image-zoom" aria-hidden="true">↗</span>
+          </button>
+          <div class="product-info"><div><h3>Vaza — Terra</h3><p>Skulpturalni dekorativni komad</p></div><span class="product-price">4.600 RSD</span></div>
+        </article>
+      </div>
+      <p class="collection-note">* Cene su prikazane kao deo školskog koncepta brenda.</p>
+    </section>
+
+    <section class="process" id="proces">
+      <div class="process-heading section-wrap">
+        <p class="eyebrow">Od gline do gotovog predmeta</p>
+        <h2>Svaki komad ima<br><em>svoj put.</em></h2>
+        <p>Pravimo polako i pažljivo — od prvog dodira sa glinom do poslednjeg sloja glazure.</p>
+      </div>
+      <div class="process-grid section-wrap">
+        <article class="process-card">
+          <button class="process-image image-open" data-image="images/proces-oblikovanje.png" data-title="01 — Oblikovanje" aria-label="Uvećaj fotografiju oblikovanja">
+            <img src="images/proces-oblikovanje.png" alt="Ruke oblikuju glinu na grnčarskom točku" loading="lazy">
+          </button>
+          <span class="step-number">01 / Oblikovanje</span>
+          <p>Počinjemo od gline i jednostavnog oblika koji se razvija pod rukama.</p>
+        </article>
+        <article class="process-card process-card-offset">
+          <button class="process-image image-open" data-image="images/proces-glaziranje.png" data-title="02 — Glaziranje" aria-label="Uvećaj fotografiju glaziranja">
+            <img src="images/proces-glaziranje.png" alt="Nanošenje maslinaste glazure na keramičku činiju" loading="lazy">
+          </button>
+          <span class="step-number">02 / Glaziranje</span>
+          <p>Glazura daje završnu boju, sjaj i jedinstven karakter svakom predmetu.</p>
+        </article>
+        <article class="process-card">
+          <button class="process-image image-open" data-image="images/proces-pec.png" data-title="03 — Pečenje" aria-label="Uvećaj fotografiju pečenja keramike">
+            <img src="images/proces-pec.png" alt="Keramičke posude pažljivo se postavljaju u peć" loading="lazy">
+          </button>
+          <span class="step-number">03 / Pečenje</span>
+          <p>Visoka temperatura pretvara oblikovanu glinu u trajan, gotov komad.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="story section-wrap" id="prica">
+      <div class="story-image image-open-wrap">
+        <button class="image-open" data-image="images/lifestyle.png" data-title="Keramika u svakodnevnom životu" aria-label="Uvećaj lifestyle fotografiju">
+          <img src="images/lifestyle.png" alt="Gotova ručno rađena keramika na stolu u toplom kućnom ambijentu" loading="lazy">
+          <span class="image-zoom" aria-hidden="true">↗</span>
+        </button>
+      </div>
+      <div class="story-content">
+        <p class="eyebrow">Naša priča</p>
+        <h2>Manje žurbe.<br><em>Više osećaja.</em></h2>
+        <p>FORMA je zamišljena kao mali keramički studio posvećen predmetima koji imaju svoju teksturu, težinu i priču. Verujemo da svakodnevne stvari zaslužuju da budu posebne — od prve jutarnje kafe do večere sa dragim ljudima.</p>
+        <a class="text-link" href="#kontakt">Upoznaj naš studio <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="contact" id="kontakt">
+      <p class="eyebrow">Pitanje, ideja ili porudžbina?</p>
+      <h2>Hajde da pronađemo<br><em>tvoj komad.</em></h2>
+      <a class="button button-light" href="mailto:hello@forma-studio.example">Piši nam <span aria-hidden="true">↗</span></a>
+      <p class="contact-small">Odgovaramo sa pažnjom, kao što i stvaramo.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="wordmark" href="#pocetna">FORMA<span>.</span></a>
+    <p>Ručno rađena keramika · Sa pažnjom, u malim serijama.</p>
+    <a href="#pocetna" class="back-top">Nazad na vrh ↑</a>
+    <small>© <span id="year"></span> FORMA Studio. Školski projekat.</small>
+  </footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Pregled fotografije" aria-hidden="true">
+    <button class="lightbox-close" aria-label="Zatvori fotografiju">×</button>
+    <img src="" alt="" id="lightbox-image">
+    <p id="lightbox-caption"></p>
+  </div>
+</body>
+</html>
